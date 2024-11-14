@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: map-get($color , primario );
+    height: 40px;
+    gap: 20px;
+    
+
+        li{
+
+          list-style: none;
+          flex-direction: row;
+          &:hover{
+             transform: scale(1.2);
+            }
+            a{
+              color: $colorTexto;
+              text-decoration: none;
+              font-size: 15px;
+            }
+        }   
+}

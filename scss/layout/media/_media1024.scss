@@ -1,0 +1,53 @@
+
+@media(max-width:1024px)
+{
+//Productos HTML
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+//Donde-Comprar HTML
+.section-dondecomprar{
+    @include flex(column);
+     article{
+        background: none;
+        width: 100%;
+        height: auto;
+        img{
+            width: auto;
+            height: auto;
+        }
+     }
+}
+  
+//Index HTML
+.main {
+    img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+}
+.section-principal{
+    div{
+        width: auto;
+        height: 300px;
+        padding: 40px 40px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.section-article{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        img{
+            width: 100%;
+            height: auto;
+            object-fit:contain;
+        }
+    }
+
+}

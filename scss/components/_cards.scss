@@ -1,0 +1,90 @@
+
+.section-productos{
+    padding: 80px 10%;   
+     display: flex;
+     justify-content: flex-end;
+     div{
+        margin: 10px;
+        img{
+            width: 50px;
+        }
+     }
+     article{
+        margin-top: 12px;
+        border-radius: 10%;
+     }
+ }
+
+
+ .productos-container{
+     padding: 20px;
+ }
+ 
+ .card-container{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+ }
+ .card{
+     width: 250px;
+     height:300px;
+     img{
+        width: 220px;  
+        height: 220px;
+        margin-top: 15px;
+        object-fit: contain;
+    }
+ }
+ .porta-imagen{
+     width: 230px;  
+     height: 230px;
+     background-color: map-get($color , terciario );
+     border-radius: 15%;
+     text-align: center;
+ }
+
+ .card-contenido{
+     margin-top: 10px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     p{
+        margin-top: 8px;
+        text-decoration: line-through;
+    }
+    h3{
+        margin-top: 5px;
+    }
+    button{
+        width: 100px;
+        height: 30px;
+        border-radius: 30%;
+    }
+ }
+
+ input{
+    all: unset;
+    border-bottom: 2px solid map-get($color , terciario );
+    padding-bottom: 2px;
+}
+
+input:focus{
+    color: map-get($color , terciario );
+    font-style: italic;
+}
+
+.submit{
+    border-radius: 3px;
+    border: 2px solid map-get($color , terciario );
+    padding: 5px, 1.25rem;
+}
+
+.card-contenido button:focus{
+    color: map-get($color , terciario );
+    border: 2px solid map-get($color , terciario );
+}
+
+.card-contenido h3::selection{
+    background-color: map-get($color , terciario );
+    color: map-get($color , secundario );
+}

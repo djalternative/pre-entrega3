@@ -1,0 +1,52 @@
+.main{
+    img{
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+    }
+}
+
+.section-principal{
+    width: auto;
+    height: 300px;
+    background-color: map-get($color , secundario );
+    @include flex(row);
+    padding: 80px 80px;
+    img{
+        width: 50px;
+    }
+    p{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    div{
+        text-align: center;
+        justify-content: space-between;
+        width: 15%;
+        height: 20%; 
+    }
+}
+
+.section-article{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    article{
+        background-color: map-get($color , primario );
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        div{
+            padding: 20px;
+        }
+    }
+    img{
+        width: auto;
+        height: 400px;
+        object-fit: cover;
+        display: flex;
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,70 @@
+
+@media(max-width:375px)
+{
+    header{
+        width: auto;
+       height: auto;
+    }
+    .navbar{
+        padding: 150px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: map-get($color , primario );
+        height: 200px;
+        }
+//PRODUCTO HTML
+.card-container{
+    @include flex(column);
+}
+.section-productos{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4,60px);
+}
+// CONTACTO HTML
+form{
+    @include flex(column);
+}
+
+//DONDE COMPRAR HTML    
+.section-dondecomprar{
+    @include flex(column);
+    article{
+        background: none;
+        width: 100%;
+        height: auto;
+        img{
+            width: auto;
+            height: auto; 
+        }
+    }
+}
+.art-dondecomprar{
+    div{
+        p{
+            text-align: center;
+        }
+        h3{
+            text-align: center;
+        }
+    }
+}
+//Index HTML
+.section-principal{
+     width: auto;
+    height: 50%;
+    @include flex(column);
+}
+//QUIENES SOMOS HTML
+.section-quienesomos{
+    padding: 80px 5%;   
+    display: flex;
+    flex-direction: column;
+    div{
+        width: auto;
+        height: auto;
+    }
+}
+
+}
