@@ -7,12 +7,12 @@ header{
     }
 
 .navbar{
-    padding: 150px;
+   //padding: 150px;
     display: flex;
     flex-direction: column;
     text-align: center;
     background-color: map-get($color , primario );
-    height: 200px;
+    height: auto;
     }
 
 //productos html
