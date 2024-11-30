@@ -70,6 +70,16 @@ form{
    height: 50%;
    @include flex(column);
 }
+.section-article{
+            h2{
+                top: 10%;
+                padding: 5px;
+            }
+            p{
+                top: 30%;
+                padding: 10px;
+            }
+        }
 //QUIENES SOMOS HTML
 .section-quienesomos{
     padding: 80px 5%;   
