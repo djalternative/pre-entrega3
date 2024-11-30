@@ -11,7 +11,6 @@
 /*Layout*/
 @import "./layout/header";
 @import "./layout/sectionindex";
-@import "./layout/footer";
 @import "./layout/sectionquienessomos";
 @import "./layout/dondecomprar";
 @import "./layout/sectioncontacto";
@@ -23,9 +22,11 @@
 @import "./components/cards";
 @import "./components/animaciones";
 @import "./components/boton";
+@import "./components/footer";
 
 
 @import "./layout/media/media1024";
+@import "./layout/media/media991";
 @import "./layout/media/media768";
 @import "./layout/media/media476";
 @import "./layout/media/media375";
